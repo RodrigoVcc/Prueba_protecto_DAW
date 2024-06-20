@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="/images/heart.svg" type="image/x-icon">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="/components/FooterComponent.js"></script>
+    <script src="/components/NavbarComponent.js"></script>
+  </head>
+  <body class="font-[Fredoka] h-screen relative">
+    <header class="header">
+      <navbar-component></navbar-component>
+    </header>
+    <main class="flex flex-col w-[92%] mx-auto my-14 main">
+      <article
+        class="w-full h-fit flex items-center py-8 px-[70px] md:px-[70px] main__article"
+      >
+        <section class="w-[50%] px-8 h-fit main__section">
+          <h1 class="font-bold text-[50px] text-[#FF5353] main__section__title">
+            Planificamos tus sueños
+          </h1>
+          <h2 class="font-semibold text-[40px] main__section__subtitle">Bodas, eventos y más</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+            distinctio veritatis excepturi minus mollitia similique iusto
+            accusantium quia! Voluptatem, nostrum?
+          </p>
+          <a
+            href="#"
+            class="p-4 rounded-full bg-[#FF5353] text-white font-semibold block w-fit my-4"
+            >Get Started</a
+          >
+        </section>
+        <section class="w-[50%] h-[400px] relative main__section__picture">
+          <img
+            src="/images/main.jpg"
+            class="block w-[50%] rounded-full absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%] section__img"
+            alt="Casados"
+          />
+        </section>
+      </article>
+      <article class="slider__container">
+        <h2 class="font-semibold text-[40px] slider__title">Nuestros servicios</h2>
+        <div class="slider__wrapper">
+          <div class="slider">
+            <img id="slide-1" src="/images/slide1.jpg" alt="Slider 1">
+            <img id="slide-2" src="/images/slide2.jpg" alt="Slider 2">
+            <img id="slide-3" src="/images/slide3.jpg" alt="Slider 3">
+          </div>
+          <div class="slider__nav">
+            <a href="#slide-1"></a>
+            <a href="#slide-2"></a>
+            <a href="#slide-3"></a>
+          </div>
+        </div>
+      </article>
+      <article class="mx-auto wedding__container">
+        <h2 class="font-semibold text-[40px] wedding__title">Nuestros paquetes de boda</h2>
+        <section class="wedding__packages">
+          <div class="wedding__plan">
+            <h4 class="wedding__subtitle">Paquete básico</h4>
+            <p class="wedding__price">$310</p>
+            <ul class="wedding__list">
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>❌ Lorem ipsum dolor sit.</li>
+              <li>❌ Lorem ipsum dolor sit.</li>
+              <li>❌ Lorem ipsum dolor sit.</li>
+              <li>❌ Lorem ipsum dolor sit.</li>
+            </ul>
+            <a href="#" class="wedding__cta">Comprar</a>
+          </div>
+          <div class="wedding__plan">
+            <h4 class="wedding__subtitle">Paquete mediano</h4>
+            <p class="wedding__price">$700</p>
+            <ul class="wedding__list">
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>❌ Lorem ipsum dolor sit.</li>
+              <li>❌ Lorem ipsum dolor sit.</li>
+              <li>❌ Lorem ipsum dolor sit.</li>
+            </ul>
+            <a href="#" class="wedding__cta">Comprar</a>
+          </div>
+          <div class="wedding__plan">
+            <h4 class="wedding__subtitle">Paquete premiun</h4>
+            <p class="wedding__price">$1200</p>
+            <ul class="wedding__list">
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+              <li>✅ Lorem ipsum dolor sit.</li>
+            </ul>
+            <a href="#" class="wedding__cta">Comprar</a>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__picture">
+        <img src="/images/ues.png" class="footer__image" />
+        <p class="footer__class">Desarrollo de Aplicaciones Web</p>
+      </div>
+      <div class="footer__links">
+        <a href="/pages/about.html">Sobre Nosotros</a>
+        <a href="/pages/contacto.html">Contacto</a>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+  </body>
+</html>

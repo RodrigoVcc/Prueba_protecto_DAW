@@ -1,0 +1,16 @@
+{
+  "name": "dawbase",
+  "version": "1.0.0",
+  "description": "Proyecto para que a partir de este puedan clonarlo y crear sus propios proyectos web los estudiantes pertenecientes a cualquier grupo de DAW",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "server": "webpack-dashboard -- webpack-dev-server --inline --port 8080",
+    "webdriver-update": "webdriver-manager update"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
