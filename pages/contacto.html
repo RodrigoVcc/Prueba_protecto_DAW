@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="acción" content="segundos" url="https://www.facebook.com/UESoficial.SV"
+    />
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="/css/contacto.css" type="text/css" />
+    <link rel="stylesheet" href="/css/output.css">
+    <link rel="shortcut icon" href="/images/heart.svg" type="image/x-icon">
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "nurWlmvUEV4dtb7kO",
+        });
+      })();
+    </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="/components/NavbarComponent.js"></script>
+    <script src="/components/FooterComponent.js"></script>
+    <script src="/js/mail.js"></script>
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/666e96169a809f19fb3e5743/1i0fvkhsn';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+  </head>
+  <body class="font-[Fredoka] bg-white h-screen">
+    <header class="header">
+        <navbar-component></navbar-component>
+    </header>
+    <main class="main">
+      <section class="main__contact">
+        <figure class="main__picture">
+          <img src="/images/contact2.jpg" alt="Imagen de Recién Casados" class="main__image">
+        </figure>
+        <form action="#" onsubmit="enviarcorreo(event)" class="main__form" id="form">
+          <h1 class="main__title">¿Tiene algún plan?</h1>
+          <h2 class="main__subtitle">Hable con nosotros</h2>
+          <div class="main__inputs">
+            <input type="text" id="fullName" placeholder="Nombre completo" class="main__input" required/>
+            <input type="email" id="email_id" placeholder="Correo electrónico" class="main__input" required/>
+            <textarea class="main__textarea" id="mensaje" placeholder="Mensaje" required></textarea>
+          </div>
+          <button class="main__button">
+            Enviar
+          </button>  
+        </form>
+      </section>
+      <section class="main__others">
+        <div class="main__members">
+          <h2 class="main__subtitle">Integrantes</h2>
+          <ul class="main__list">
+            <li class="main__item">MV22023 - MV22023@ues.edu.sv</li>
+            <li class="main__item">CC22070 - cc22070@ues.edu.sv</li>
+            <li class="main__item">CV22022 - CV22022@ues.edu.sv</li>
+            <li class="main__item">GL12016 - GL12016@ues.edu.sv</li>
+            <li class="main__item">MM03168 - MM03168@ues.edu.sv</li>
+          </ul>
+        </div>
+        <div class="main__social__medias">
+          <h2 class="main__subtitle">Redes Sociales</h2>
+          <div class="icons">
+            <a href="https://www.facebook.com/UESoficial.SV" class="icon__item"><img src="/images/fb.png" class="icon__image" />
+            </a>
+            <a href="https://twitter.com/UESoficial" class="icon__item"><img src="/images/twitter_x.png" class="icon__image"/>
+            </a>
+            <a href="https://wa.me/+50378423999" class="icon__item"><img src="/images/whatsapp.png"  class="icon__image"/>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__picture">
+        <img src="/images/ues.png" class="footer__image" />
+        <p class="footer__class">Desarrollo de Aplicaciones Web</p>
+      </div>
+      <div class="footer__links">
+        <a href="/pages/about.html">Sobre Nosotros</a>
+        <a href="/pages/contacto.html">Contacto</a>
+      </div>
+    </footer>
+  <script src="/js/menu.js"></script>
+  </body>
+</html>

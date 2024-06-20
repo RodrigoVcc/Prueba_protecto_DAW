@@ -1,0 +1,19 @@
+.main {
+  padding: 2rem;
+  margin-bottom: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main__section__title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px){
+    .main {
+        padding: 30px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
