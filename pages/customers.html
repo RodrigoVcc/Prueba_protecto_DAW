@@ -1,71 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clientes</title>
-    <link rel="stylesheet" href="/css/style.css" type="text/css" />
-    <link rel="stylesheet" href="/css/output.css">
-    <link rel="shortcut icon" href="/images/heart.svg" type="image/x-icon">
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-    <script src="/components/NavbarComponent.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="/css/output.css">
+  <link rel="stylesheet" href="/css/customers.css">
+  <link rel="shortcut icon" href="/images/heart.svg" type="image/x-icon">
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <script src="/components/NavbarComponent.js"></script>
+  <script src="/components/FooterComponent.js"></script>
 </head>
+
 <body class="font-[Fredoka] bg-white h-screen">
-    <header class="header">
-        <navbar-component></navbar-component>
-    </header>
-    <!-- component -->
-<section class="text-gray-400 bg-gray-900 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="flex flex-col">
-      <div class="h-1 bg-gray-800 rounded overflow-hidden">
-        <div class="w-24 h-full bg-indigo-500"></div>
-      </div>
-      <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
-        <h1 class="sm:w-2/5 text-white font-medium title-font text-2xl mb-2 sm:mb-0">Algunas Experiencias</h1>
-        <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Puedes ver algunas Experiencias con nuestros servicios.</p>
-      </div>
-    </div>
-    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
-      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-        <div class="rounded-lg h-64 overflow-hidden">
-          <img alt="content" class="object-cover object-center h-full w-full" src="/images/boda1.png"  width="100">
+  <header class="header">
+    <navbar-component></navbar-component>
+  </header>
+  <!-- component -->
+  <main class="main">
+    <section class="main__section">
+
+      <div>
+        <div class="main_cards">
+          <h1 class="main_header">Algunas Experiencias
+            <p>Puedes ver algunas Experiencias con nuestros
+              servicios.</p>
+          </h1>
+          <div class="main__card_container">
+
+            <div class="card">
+              <img src="/images/boda1.png" alt="" class="main__imagen">
+              <div class="p-4">
+                <h3 class="card_title">Boda de Angela e Ivan</h3>
+                <p class="text-justify">The be might what days revellers, which sought to a nor. Land from to suits his
+                  some. Saw him counsel begun mother though but. Ofttimes soils of since mighty pollution.</p>
+                <div class="mt-5">
+                  <a class="card_leermas">Leer Más</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/images/boda3.png" alt="" class="main__imagen">
+              <div class="p-4">
+                <h3 class="card_title">Boda de Laura y Lucas</h3>
+                <p class="text-justify">Rapping wind chamber have was has, is all of thy stood chamber his bore.
+                  Nameless or as door tapping both thy grew lenore. We my still respiterespite lie, with lordly.</p>
+                <div class="mt-5">
+                  <a class="card_leermas">Leer Más</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="/images/boda2.png" alt="" class="main__imagen">
+              <div class="p-4">
+                <h3 class="card_title">Aniversarios</h3>
+                <p class="text-justify">Upon but that objects tis sore would what. Who formed in coffined heartless
+                  shades, there mine was heart vast flaunting he low relief uncouth, dear and and but suffice ofttimes.
+                </p>
+                <div class="mt-5">
+                  <a class="card_leermas">Leer Más</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <h2 class="text-xl font-medium title-font text-white mt-5">Boda de Angela e Ivan </h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoindxgoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-        <a class="text-indigo-400 inline-flex items-center mt-3">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
       </div>
-      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-        <div class="rounded-lg h-64 overflow-hidden">
-          <img alt="content" class="object-cover object-center h-full w-full" src="/images/boda3.png"  height="100" >
-        </div>
-        <h2 class="text-xl font-medium title-font text-white mt-5">Boda de Laura y Lucas </h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoindxigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-        <a class="text-indigo-400 inline-flex items-center mt-3">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-      </div>
-      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
-        <div class="rounded-lg h-64 overflow-hidden">
-          <img alt="content" class="object-cover object-center h-full w-full" src="/images/boda2.png"  height="100">
-        </div>
-        <h2 class="text-xl font-medium title-font text-white mt-5">Aniversarios</h2>
-        <p class="text-base leading-relaxed mt-2">Swag shoindegoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
-        <a class="text-indigo-400 inline-flex items-center mt-3">Learn More
-          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </div>
+
+
 </section>
-    <script src="/js/menu.js"></script>
+</main>
+<footer class="footer">
+  <div class="footer__picture">
+    <img src="/images/ues.png" class="footer__image" />
+    <p class="footer__class">Desarrollo de Aplicaciones Web</p>
+  </div>
+  <div class="footer__links">
+    <a href="/pages/about.html">Sobre Nosotros</a>
+    <a href="/pages/contacto.html">Contacto</a>
+  </div>
+</footer>
+<script src="/js/menu.js"></script>
 </body>
+
 </html>
